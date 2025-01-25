@@ -24,13 +24,13 @@ function CarList() {
     return (
       <div key={car.id} className="panel">
         <p>
-          {car.name}-${car.cost}
+          {car.name}-ریال{car.cost}
         </p>
         <button
           className="button is-danger"
           onClick={() => handleCarDelete(car)}
         >
-          Delete
+          حذف
         </button>
       </div>
     );

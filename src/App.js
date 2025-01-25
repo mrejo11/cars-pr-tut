@@ -15,3 +15,12 @@ function App() {
 }
 
 export default App
+
+// const reverstring=(str)=>{
+//   return(
+// str.split('').reverse('').join('')
+//   )
+// }
+// console.log(reverstring('mehdi'))
+
+// // in manual approch

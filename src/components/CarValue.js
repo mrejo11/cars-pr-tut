@@ -9,7 +9,7 @@ function CarValue() {
       .reduce((acc, car) => acc + car.cost, 0)
   );
 
-  return <div className="car-value">Total Cost: ${totalCost}</div>;
+  return <div className="car-value">هزینه کل: ریال{totalCost}</div>;
 }
 
 export default CarValue;

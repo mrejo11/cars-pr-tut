@@ -12,9 +12,9 @@ const dispatch=useDispatch()
   }
   return (
     <div className="list-header">
-      <h3 className="title is-3">My Cars</h3>
+      <h3 className="title is-3">لیست من</h3>
       <div className="search field is-horizontal">
-        <label className="lable">Search</label>
+        <label style={{width:'100px'}} className="lable">جست و جو</label>
         <input className="input" value={searchTerm} onChange={handleSearchChange} />
       </div>
     </div>
