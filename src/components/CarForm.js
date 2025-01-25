@@ -31,10 +31,10 @@ function CarForm() {
 
   return (
     <div className="car-form panel">
-      <h4 className="subtitle is-3">Add car</h4>
+      <h4 className="subtitle is-3">لیست خرید را وارد کنید</h4>
       <form onSubmit={handleSubmit}>
         <div className="field-group">
-          <label className="label">Name:</label>
+          <label className="label">نام</label>
           <input
             className="input is-expanded"
             value={name}
@@ -43,7 +43,7 @@ function CarForm() {
         </div>
 
         <div className="field-group">
-          <label className="label">Cost:</label>
+          <label className="label">قیمت</label>
           <input
             className="input is-expanded"
             value={cost || ""}
@@ -51,7 +51,7 @@ function CarForm() {
           ></input>
         </div>
         <div className="field">
-            <button className="button is-link">Submit</button>
+            <button className="button is-link">وارد کردن</button>
         </div>
       </form>
     </div>
