@@ -47,6 +47,7 @@ function CarForm() {
           <input
             className="input is-expanded"
             value={cost || ""}
+            inputMode="numeric" 
             onChange={handleCostChange}
           ></input>
         </div>
