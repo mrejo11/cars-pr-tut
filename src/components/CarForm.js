@@ -34,7 +34,7 @@ function CarForm() {
       <h4 className="subtitle is-3">لیست خرید را وارد کنید</h4>
       <form onSubmit={handleSubmit}>
         <div className="field-group">
-          <label className="label">نام</label>
+          <label className="label" style={{width:'120px'}}>لیست خرید</label>
           <input
             className="input is-expanded"
             value={name}
